@@ -4,3 +4,9 @@
 ---
 > static const char *user  = "sthen";
 > static const char *group = "sthen";
+7,8c7,8
+< 	[INPUT] =  "#005577",   /* during input */
+< 	[FAILED] = "#CC3333",   /* wrong password */
+---
+> 	[INPUT] =  "#1f1100",     /* during input */
+> 	[FAILED] = "#1f0000",   /* wrong password */
