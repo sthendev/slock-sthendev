@@ -23,6 +23,7 @@ ${OBJ}: config.h config.mk arg.h util.h
 config.h:
 	@echo creating $@ from config.def.h
 	@cp config.def.h $@
+	@[ -f config.h.patch ] && patch config.h config.h.patch
 
 slock: ${OBJ}
 	@echo CC -o $@

@@ -1,0 +1,6 @@
+2,3c2,3
+< static const char *user  = "nobody";
+< static const char *group = "nogroup";
+---
+> static const char *user  = "sthen";
+> static const char *group = "sthen";
